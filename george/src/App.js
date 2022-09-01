@@ -117,13 +117,41 @@ function App() {
             width: "261px",
             height: "52px",
             marginLeft: "40%",
-            color:"white",
+            color: "white",
             padding: "16px 32px 16px 32px",
           }}
         >
           Get Started with Gotru hub
         </p>
       </div>
+      <footer style={{ background: "#19201D", height: "223px;" }}>
+        <div>
+          <img
+            src="/images/logo.svg"
+            alt="header-img"
+            style={{
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+              paddingTop:"56px"
+            }}
+          />
+        </div>
+        <div
+          style={{
+            paddingBottom: "65px",
+            paddingTop: "48px",
+            display: "flex",
+            justifyContent: "center",
+            color: "white",
+          }}
+        >
+          <p style={{ paddingRight: "24px", borderRight: "2px solid #444A47" }}>
+            Terms of service
+          </p>
+          <p style={{ paddingLeft: "24px" }}>Privacy policy</p>
+        </div>
+      </footer>
     </div>
   );
 }
